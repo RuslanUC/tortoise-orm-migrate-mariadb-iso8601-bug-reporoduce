@@ -12,4 +12,4 @@ dependencies = [
 tortoise_orm = "main.TORTOISE_ORM"
 
 [tool.uv.sources]
-tortoise-orm = { git = "https://github.com/RuslanUC/tortoise-orm.git", rev = "develop" }
+tortoise-orm = { git = "https://github.com/RuslanUC/tortoise-orm.git", rev = "fix-migrations-on-mariadb-use-placeholders" }

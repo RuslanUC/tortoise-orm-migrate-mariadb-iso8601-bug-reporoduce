@@ -1,7 +1,10 @@
 #!/bin/bash
 
 USE_PERSISTENT_CONTAINERS="1"
-TORTOISE_PACKAGE="git+https://github.com/RuslanUC/tortoise-orm.git@develop"
+#TORTOISE_PACKAGE="git+https://github.com/RuslanUC/tortoise-orm.git@develop"
+#TORTOISE_PACKAGE="git+https://github.com/RuslanUC/tortoise-orm.git@fix-migrations-on-mariadb-use-placeholders"
+#TORTOISE_PACKAGE="git+https://github.com/RuslanUC/tortoise-orm.git@fix-migrations-on-mariadb-replace-tzinfo"
+TORTOISE_PACKAGE="git+https://github.com/RuslanUC/tortoise-orm.git@fix-migrations-on-mariadb-use-pypika"
 
 CONTAINER_NAME_MARIADB="tortoiseorm-migration-test-mariadb"
 CONTAINER_NAME_MYSQL="tortoiseorm-migration-test-mysql"

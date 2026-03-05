@@ -378,7 +378,7 @@ wheels = [
 [[package]]
 name = "tortoise-orm"
 version = "1.1.6"
-source = { git = "https://github.com/RuslanUC/tortoise-orm.git?rev=develop#ebc28bf778177301f5a12985807facb5af9b9fc4" }
+source = { git = "https://github.com/RuslanUC/tortoise-orm.git?rev=fix-migrations-on-mariadb-use-placeholders#ef5036704d596e829284d11921335f18041b93c7" }
 dependencies = [
     { name = "aiosqlite" },
     { name = "anyio" },
@@ -411,7 +411,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "cryptography", specifier = ">=46.0.5" },
-    { name = "tortoise-orm", extras = ["accel", "asyncmy", "asyncpg"], git = "https://github.com/RuslanUC/tortoise-orm.git?rev=develop" },
+    { name = "tortoise-orm", extras = ["accel", "asyncmy", "asyncpg"], git = "https://github.com/RuslanUC/tortoise-orm.git?rev=fix-migrations-on-mariadb-use-placeholders" },
 ]
 
 [[package]]
