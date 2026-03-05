@@ -5,11 +5,11 @@ description = ""
 requires-python = ">=3.11"
 dependencies = [
     "cryptography>=46.0.5",
-    "tortoise-orm[accel,asyncmy]",
+    "tortoise-orm[accel,asyncmy,asyncpg]",
 ]
 
 [tool.tortoise]
 tortoise_orm = "main.TORTOISE_ORM"
 
 [tool.uv.sources]
-tortoise-orm = { git = "https://github.com/tortoise/tortoise-orm.git", rev = "develop" }
+tortoise-orm = { git = "https://github.com/RuslanUC/tortoise-orm.git", rev = "develop" }
